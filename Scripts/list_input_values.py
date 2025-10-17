@@ -1,4 +1,4 @@
-# This creates a list in which you can enter values until you enter '$'.
+# This creates a list in which you can enter values until you enter 'no'.
 
 # Enter when you want to stop putting values into the list
 endChar = 'no'

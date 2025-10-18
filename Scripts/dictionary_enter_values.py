@@ -30,17 +30,20 @@ for name, language in user_profiles.items():
 
 # How the code works
 
-# Initialize an empty dictionary: user_profiles = {} creates an empty dictionary that will
+# Initialize an empty dictionary: l.5 - user_profiles = {} creates an empty dictionary that will
 # be populated during the loop.
 # 
-# Use a flag: A variable named polling_active is set to True. This flag keeps the while loop
+# Use a flag: l.8 - A variable named polling_active is set to True. This flag keeps the while loop
 # running as long as it remains True.
 # 
 # Get user input: Inside the loop, the input() function prompts the user to enter a key (name)
-# and a value (language).
+# and a value (bid).
+
 # Add to the dictionary: The line user_profiles[name] = language adds a new key-value pair
 # to the dictionary. If the key already exists, its value is updated.
+
 # Control the loop: The program asks the user if they want to continue. If the user enters
 # "no," the polling_active flag is set to False, and the loop terminates.
+
 # Print the final dictionary: After the loop ends, a for loop iterates through the dictionary's
 # items to print each stored profile. 

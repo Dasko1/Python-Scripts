@@ -10,11 +10,10 @@ polling_active = True
 while polling_active:
     # Prompt the user for the name and favorite bid
     name = input("\nWhat is your name? ")
-    bid = input("What is your bid? ")
-    bid_int = int(bid)
+    bid = int(input("What is your bid? "))
 
     # Add the user's input to the dictionary
-    user_bids[name] = bid_int
+    user_bids[name] = bid
 
     # Ask the user if they want to enter another profile
     repeat = input("Would you like to add another user? (yes/no) ")

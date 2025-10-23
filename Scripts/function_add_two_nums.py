@@ -5,5 +5,4 @@ def add_two_nums(x, y):
     return f"Sum: {sum}"
 
 
-# print(add_two_nums(14, 6))
 print(add_two_nums(input("Enter first number: "), input("Enter second number: ")))
